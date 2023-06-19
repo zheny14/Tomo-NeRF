@@ -22,4 +22,4 @@ If you are interested in trying new architectures, see the class of Net_upsampli
 
 ### Versions
 
-Ultra-sparse View X-ray Computed Tomography for 4-D Imaging: [doi.org/10.26434](https://doi.org/10.26434/chemrxiv-2023-3qrhl)
+Version 1.0: [Ultra-sparse View X-ray Computed Tomography for 4-D Imaging](https://doi.org/10.26434/chemrxiv-2023-3qrhl)
