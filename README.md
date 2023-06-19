@@ -9,4 +9,8 @@ Tomo-NeRF requires a set of 2D radiographic projection images. Ensure that you h
 
 #### Training
 Specifiy DATAPATH with the path to the directory containing your projection images. Adjust the parameter as requested in script based on the number of images/types of images you have.
-The training script will save the trained model for each epoch. Please note here we only provide part of training samples due to the limitation of files sizes. You can access the trained model through the following link: [Trained Model](https://drive.google.com/drive/folders/1-uTtm3OzJTFJs3P851HDodRUjEA_llNw?usp=sharing)
+The training script will save the trained model for each epoch. Please note here we only provide part of training samples due to the limitation of file size. You can access the trained model through the following link: [Trained Model](https://drive.google.com/drive/folders/1-uTtm3OzJTFJs3P851HDodRUjEA_llNw?usp=sharing)
+
+#### Optimization
+After training, you can optimize the Tomo-NeRF model on the testing samples (without the knowlege of 3D information) using the optimization script. Specifiy DATAPATH with the path to the directory containing your projection images and load the trained model (Example:[Trained Model](https://drive.google.com/drive/folders/1-uTtm3OzJTFJs3P851HDodRUjEA_llNw?usp=sharing)). Adjust the parameter as requested in script based on the number of images/types of images you have.
+The optimization script will save the optimized model for each epoch.
